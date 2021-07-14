@@ -1,0 +1,1 @@
+curl -XGET "${1}/job/${2}/lastBuild/api/json" --basic -u ${3}:${4} > ${5}/${6}

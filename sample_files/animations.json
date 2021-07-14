@@ -1,0 +1,152 @@
+[
+    {
+        "name": "std",
+        "animations": [
+            {
+                "id": 1,
+                "title": "Rainbow",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 2,
+                "title": "Lava",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 3,
+                "title": "Purple",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 4,
+                "title": "Random",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 5,
+                "title": "B & W",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 6,
+                "title": "Cloud",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 7,
+                "title": "Party",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 7,
+                "title": "Breath",
+                "hasP1": true,
+                "p1": 128,
+                "p1Min": 1,
+                "p1Max": 255,
+                "allowColor": true,
+                "allowBrightness": true
+            }
+        ]
+    },
+    {
+        "name": "multi",
+        "animations": [
+            {
+                "id": 1,
+                "title": "Hypnotize",
+                "hasP1": true,
+                "p1": 20,
+                "p1Min": 0,
+                "p1Max": 50,
+                "allowColor": true,
+                "allowBrightness": true
+            },
+            {
+                "id": 2,
+                "title": "Streak",
+                "hasP1": true,
+                "p1": 20,
+                "p1Min": 0,
+                "p1Max": 300,
+                "allowColor": true,
+                "allowBrightness": true
+            },
+            {
+                "id": 3,
+                "title": "Kit",
+                "hasP1": true,
+                "p1": 10,
+                "p1Min": 0,
+                "p1Max": 40,
+                "allowColor": true,
+                "allowBrightness": true
+            },
+            {
+                "id": 4,
+                "title": "Rainbow",
+                "hasP1": true,
+                "p1": 50,
+                "p1Min": 0,
+                "p1Max": 150,
+                "allowColor": false,
+                "allowBrightness": true
+            },
+            {
+                "id": 5,
+                "title": "Sound Test",
+                "hasP1": false,
+                "p1": 0,
+                "p1Min": 0,
+                "p1Max": 0,
+                "allowColor": true,
+                "allowBrightness": false
+            },
+            {
+                "id": 6,
+                "title": "Sound2 Test",
+                "hasP1": false,
+                "p1": 0,
+                "p1Min": 0,
+                "p1Max": 0,
+                "allowColor": true,
+                "allowBrightness": true
+            }
+        ]
+    }
+]

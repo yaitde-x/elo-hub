@@ -1,0 +1,170 @@
+[
+    {
+        "name": "elo_ind_df",
+        "rules": [
+            {
+                "ruleType": 2,
+                "triggerName": "elo_dfmon",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 1,
+                "indicatorState": 2,
+                "indicatorLevel": 2,
+                "minVal": null,
+                "maxVal": 700
+            },
+            {
+                "ruleType": 2,
+                "triggerName": "elo_dfmon",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 1,
+                "indicatorState": 4,
+                "indicatorLevel": 1,
+                "minVal": 701,
+                "maxVal": 950
+            },
+            {
+                "ruleType": 2,
+                "triggerName": "elo_dfmon",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 1,
+                "indicatorState": 0,
+                "indicatorLevel": 0,
+                "minVal": 951,
+                "maxVal": null
+            }
+        ]
+    },
+    {
+        "name": "elo_ind_trek_df",
+        "rules": [
+            {
+                "ruleType": 2,
+                "triggerName": "elo_dfmon",
+                "triggerVar": "v1",
+                "deviceName": "elo_trek",
+                "deviceIndicator": 0,
+                "indicatorState": 2,
+                "indicatorLevel": 2,
+                "minVal": null,
+                "maxVal": 700
+            },
+            {
+                "ruleType": 2,
+                "triggerName": "elo_dfmon",
+                "triggerVar": "v1",
+                "deviceName": "elo_trek",
+                "deviceIndicator": 0,
+                "indicatorState": 4,
+                "indicatorLevel": 1,
+                "minVal": 701,
+                "maxVal": 950
+            },
+            {
+                "ruleType": 2,
+                "triggerName": "elo_dfmon",
+                "triggerVar": "v1",
+                "deviceName": "elo_trek",
+                "deviceIndicator": 0,
+                "indicatorState": 0,
+                "indicatorLevel": 0,
+                "minVal": 951,
+                "maxVal": null
+            }
+        ]
+    },
+    {
+        "name": "elo_ind_bld",
+        "rules": [
+            {
+                "ruleType": 1,
+                "triggerName": "elo_bld",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 0,
+                "indicatorState": 2,
+                "indicatorLevel": 3,
+                "minVal": 0,
+                "maxVal": null
+            },
+            {
+                "ruleType": 1,
+                "triggerName": "elo_bld",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 0,
+                "indicatorState": 0,
+                "indicatorLevel": 0,
+                "minVal": 1,
+                "maxVal": null
+            },
+            {
+                "ruleType": 1,
+                "triggerName": "elo_bld",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 0,
+                "indicatorState": 3,
+                "indicatorLevel": 1,
+                "minVal": 2,
+                "maxVal": null
+            }
+        ]
+    },
+    {
+        "name": "elo_ind_pir1",
+        "rules": [
+            {
+                "ruleType": 1,
+                "triggerName": "elo_pir1",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 2,
+                "indicatorState": 1,
+                "indicatorLevel": 0,
+                "minVal": 0,
+                "maxVal": null
+            },
+	        {
+                "ruleType": 1,
+                "triggerName": "elo_pir1",
+                "triggerVar": "v1",
+                "deviceName": "elo_wb",
+                "deviceIndicator": 2,
+                "indicatorState": 2,
+                "indicatorLevel": 2,
+                "minVal": 1,
+                "maxVal": null
+            }
+       ]
+    },
+    {
+        "name": "elo_ind_higrow1",
+        "rules": [
+            {
+                "ruleType": 2,
+                "triggerName": "elo_higrow1",
+                "triggerVar": "v4",
+                "deviceName": "elo_trek",
+                "deviceIndicator": 0,
+                "indicatorState": 0,
+                "indicatorLevel": 0,
+                "minVal": 0,
+                "maxVal": 550
+            },
+	        {
+                "ruleType": 2,
+                "triggerName": "elo_higrow1",
+                "triggerVar": "v4",
+                "deviceName": "elo_trek",
+                "deviceIndicator": 0,
+                "indicatorState": 5,
+                "indicatorLevel": 2,
+                "minVal": 551,
+                "maxVal": null
+            }
+       ]
+    }
+]

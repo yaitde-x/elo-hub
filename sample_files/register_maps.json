@@ -1,0 +1,51 @@
+[
+    {
+        "name": "anim_speed",
+        "label": "Speed",
+        "description": "Speed of the animation",
+        "preferredRender": "slide",
+        "minValue": 0,
+        "maxValue": 255,
+        "defaultValue": 100
+    },
+    {
+        "name": "dfmon_load",
+        "label": "Load",
+        "description": "Relative load on the sensor (not lbs)",
+        "preferredRender": "label",
+        "format": "0"
+    },
+    {
+        "name": "temp",
+        "label": "Temperature",
+        "description": "Last temperature reading",
+        "preferredRender": "label",
+        "factor": 100,
+        "format": ".00",
+        "suffix": "F"
+    },
+    {
+        "name": "humidity",
+        "label": "Humidity",
+        "description": "Last humidity reading",
+        "preferredRender": "label",
+        "factor": 1000,
+        "format": "0%"
+    },
+    {
+        "name": "moisture",
+        "label": "Moisture",
+        "description": "300 = good, 550 = need water, 800 = dryish",
+        "preferredRender": "label",
+        "factor": 1,
+        "format": "0"
+    },
+    {
+        "name": "motion",
+        "label": "Motion",
+        "description": "0 = no motion, 1 = motion detected",
+        "preferredRender": "label",
+        "factor": 1,
+        "format": "0"
+    }
+]
